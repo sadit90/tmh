@@ -1,0 +1,87 @@
+
+body{
+    margin: 0;
+    font-family: 'Mukta', sans-serif;
+}
+h1{
+    font-size: 40px;
+}
+.crimson-highlight{
+    color: crimson;
+}
+.half-width{
+    float: left;
+    width: 40%;
+    margin-top: 2%;
+    margin-left: 5%;
+    padding-left: 4%;
+}
+.half-width img{
+    width: 100%;
+    float: right;
+    margin-top: 5%;
+}
+.half-width a{
+    text-decoration: none;
+    border: 2px solid green;
+    padding: 10px 20px;
+    color: black;
+    background-image: linear-gradient(rgb(60, 238, 60), rgb(158, 199, 247));
+    border-radius: 5px;
+    font-weight: 700;
+    transition: 0.4s;
+    z-index: -1;
+}
+
+section{
+    height: 500px;
+}
+.top-banner{
+    background-image: url(images/bg2-removebg-preview.png);
+    background-repeat: no-repeat;
+    background-position: top-left;
+    
+}
+.dream-txt{
+    float: right;
+    width: 40%;
+    margin-top: 1%;
+    margin: 8% 5% 0 2%;
+}
+.single-exp{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    height: 60%;
+    background: white;
+}
+.experiences{
+    background-image: url(images/bg1-removebg-preview.png);
+    background-repeat: no-repeat;
+    background-position: down-right;
+}
+#full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, rgb(247, 169, 169), crimson);
+    border-image-slice: 1;
+}
+.box-2{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.special{
+    width: 33%;
+    float: left;
+    margin-top: 1%;
+    margin-left: 1%;
+}
+#baby-dev{
+    border-left: 7px solid;
+    border-image: linear-gradient(rgb(227, 241, 100), rgb(31, 243, 31));
+    border-image-slice: 1;
+}
+.power-exp{
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+}
